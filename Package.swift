@@ -2,17 +2,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "LeeguooWebViewKit",
+    name: "AppleTVWebViewKit",
     platforms: [.iOS(.v17), .tvOS(.v17)],
     products: [
         .library(
-            name: "LeeguooWebViewKit",
-            targets: ["LeeguooWebViewKit"]
+            name: "AppleTVWebViewKit",
+            targets: ["AppleTVWebViewKit"]
         )
     ],
     targets: [
         .target(
-            name: "LeeguooWebViewKit",
+            name: "AppleTVWebViewKit",
             path: "Sources"
         )
     ]

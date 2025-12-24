@@ -1,4 +1,4 @@
-# LeeguooWebViewKit
+# AppleTVWebViewKit
 
 SwiftUI-friendly WebView wrapper.
 
@@ -18,7 +18,7 @@ if WebViewSupport.isAvailable {
 ## Usage
 
 ```swift
-import LeeguooWebViewKit
+import AppleTVWebViewKit
 
 struct ContentView: View {
     var body: some View {
